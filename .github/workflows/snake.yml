@@ -1,8 +1,8 @@
-name: Contribution grid snake
+name: Profile refresh
 
-# Renders the contribution graph as an animated SVG on the `output` branch.
-# The README reads it straight from raw.githubusercontent.com, so no image is
-# committed to the profile repo itself.
+# Nightly: renders the contribution graph as an animated snake onto the `output`
+# branch (the README reads it straight from raw.githubusercontent.com, so no
+# image is committed here), and re-bakes the two stat cards onto `main`.
 
 on:
   schedule:
@@ -37,3 +37,19 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
           publish_dir: ./gilded
+
+      # Committed back to main so the README never depends on a third-party
+      # renderer being up, or on it honouring CSS animations inside an <img>.
+      # Pushes made with GITHUB_TOKEN do not re-trigger this workflow.
+      - name: Bake the stat cards
+        run: node tools/bake-stats.mjs assets
+
+      - name: Commit baked cards
+        run: |
+          git config user.name "Hanz"
+          git config user.email "115807670+wonghanz@users.noreply.github.com"
+          git add assets/stats.svg assets/streak.svg
+          git diff --cached --quiet && echo "no change" || {
+            git commit -m "Stats: refresh baked cards"
+            git push
+          }

@@ -19,9 +19,11 @@ in Penang and Kedah. Not prototypes: things commuters, farmers and students use.
 
 <a href="mailto:wonghanz2007@gmail.com"><img src="https://img.shields.io/badge/email-wonghanz2007%40gmail.com-0E1630?style=for-the-badge&logo=gmail&logoColor=22d3ee&labelColor=0E1630&color=16203d" alt="Email"></a>
 <a href="https://www.linkedin.com/in/hanz-wong-b08270212"><img src="https://img.shields.io/badge/LinkedIn-Hanz%20Wong-0E1630?style=for-the-badge&logo=linkedin&logoColor=38bdf8&labelColor=0E1630&color=16203d" alt="LinkedIn"></a>
-<a href="https://github.com/wonghanz/playground"><img src="https://img.shields.io/badge/try%20the%20water%20ripple%20%26%20game-interactive-a78bfa?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=1b1040&color=a78bfa" alt="Interactive playground"></a>
+<a href="https://wonghanz.github.io/playground/"><img src="https://img.shields.io/badge/try%20the%20water%20game-interactive-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=1b1040&color=8b5cf6" alt="Open the interactive water playground"></a>
 
 </div>
+
+<a href="https://wonghanz.github.io/playground/"><img src="assets/play-cta.svg" width="100%" alt="Try the water pond — live WebGL ripples, spatial ocean audio and a droplet game. Open wonghanz.github.io/playground"/></a>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -156,8 +158,8 @@ Six systems I designed and shipped. Open-source cards are clickable; the three c
 
 <table align="center">
 <tr border="none">
-<td width="50%" align="center"><img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=wonghanz&bg_color=060a1a&border_color=3a2e12&title_color=FBBF24&text_color=FDE68A&icon_color=F59E0B&hide=issues,contribs&hide_border=true&border_radius=22&show_icons=true&count_private=true&card_width=430" alt="GitHub stats"/></td>
-<td width="50%" align="center"><img src="https://streak-stats.demolab.com?user=wonghanz&background=060a1a&border=3a2e12&ring=FBBF24&stroke=78350f&fire=F59E0B&currStreakNum=FDE047&sideNums=FEF9C3&currStreakLabel=FDE68A&sideLabels=FDE68A&dates=B08C3A&hide_border=true&border_radius=22&card_width=430" alt="GitHub streak"/></td>
+<td width="50%" align="center"><img src="assets/stats.svg" width="430" alt="GitHub stats: 1 total star, 75 total commits in 2026, 1 total pull request, rank A+"/></td>
+<td width="50%" align="center"><img src="assets/streak.svg" width="430" alt="GitHub streak: 444 total contributions since October 14 2022, current streak 13 days, longest streak 13 days"/></td>
 </tr>
 </table>
 
@@ -184,9 +186,15 @@ Six systems I designed and shipped. Open-source cards are clickable; the three c
 <!--
   ─────────────────────────────────────────────────────────────────────────
   DELIBERATELY OMITTED — read before you copy another profile README
-  1. github-readme-stats.vercel.app  -> returns HTTP 503 (shared instance is
-     saturated). The anuraghazra1 mirror above works today. Self-host on your
-     own Vercel account for reliability and swap the hostname.
+  1. Live stat-card URLs -> replaced by assets/stats.svg and assets/streak.svg,
+     baked nightly by tools/bake-stats.mjs. Both renderers hide their numbers
+     behind CSS animations (`.stagger{opacity:0}`, and eleven inline
+     `style="opacity:0;animation:fadein"` gates on the streak card). A README
+     loads those SVGs as an <img>, so the numbers only appear if the renderer
+     advances a CSS animation inside a rasterised image — and github-readme-stats
+     .vercel.app is additionally returning HTTP 503 while the working
+     anuraghazra1 mirror ignores animations=false. Baking makes the cards
+     deterministic and takes the third-party uptime out of the equation.
   2. github-profile-trophy.vercel.app -> HTTP 402 (payment required). The
      working mirror (github-trophies.vercel.app) was tested, but it surfaced
      "First Star 1pt" / "Village Elder" — low-signal badges that undercut an
