@@ -47,22 +47,22 @@
     </g>
 
     <text x="62" y="44" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="21" font-weight="800" letter-spacing="0.2" fill="url(#title3)">CapriGuard</text>
-    <text x="62" y="66" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#9fb3cf">Livestock AIoT platform on a 300-head farm</text>
+    <text x="62" y="66" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#e6f1fd">Livestock AIoT platform on a 300-head farm</text>
     <line x1="24" y1="90" x2="536" y2="90" stroke="#ffffff" stroke-opacity="0.1"/>
-    <text x="24" y="108" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="2" fill="#8399b8">SHIPPED IMPACT</text>
+    <text x="24" y="108" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="2" fill="#c4d7ee">SHIPPED IMPACT</text>
     <rect x="24" y="118" width="84" height="26" rx="13" fill="url(#chip3)" stroke="#f472b6" stroke-opacity="0.34"/>
       <text x="66" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">300 goats</text>
       <rect x="116" y="118" width="126" height="26" rx="13" fill="url(#chip3)" stroke="#f472b6" stroke-opacity="0.34"/>
       <text x="179" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">RFID edge units</text>
       <rect x="250" y="118" width="146" height="26" rx="13" fill="url(#chip3)" stroke="#f472b6" stroke-opacity="0.34"/>
       <text x="323" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">Auto health triage</text>
-    <text x="24" y="200" font-family="ui-monospace,'SFMono-Regular',Consolas,monospace" font-size="11" fill="#7f93b0">IoT Services Sdn. Bhd.</text>
-    <text x="24" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">PHP</text>
-    <text x="53" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="64" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">ESP32</text>
-    <text x="105" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="116" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">REST</text>
-    <text x="151" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="162" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Gemini API</text>
+    <text x="24" y="200" font-family="ui-monospace,'SFMono-Regular',Consolas,monospace" font-size="11" fill="#cfe0f5">IoT Services Sdn. Bhd.</text>
+    <text x="24" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">PHP</text>
+    <text x="53" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="64" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">ESP32</text>
+    <text x="105" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="116" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">REST</text>
+    <text x="151" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="162" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">Gemini API</text>
     <g>
-      <text x="506" y="205" text-anchor="end" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5d7093">PROPRIETARY</text>
+      <text x="506" y="205" text-anchor="end" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#adbfda">PROPRIETARY</text>
 
     </g>
   </g>

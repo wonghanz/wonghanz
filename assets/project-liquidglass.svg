@@ -47,19 +47,19 @@
     </g>
 
     <text x="62" y="44" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="21" font-weight="800" letter-spacing="0.2" fill="url(#title5)">Liquid Glass on iOS</text>
-    <text x="62" y="66" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#9fb3cf">Where this profile design came from</text>
+    <text x="62" y="66" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#e6f1fd">Where this profile design came from</text>
     <line x1="24" y1="90" x2="536" y2="90" stroke="#ffffff" stroke-opacity="0.1"/>
-    <text x="24" y="108" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="2" fill="#8399b8">SHIPPED IMPACT</text>
+    <text x="24" y="108" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="2" fill="#c4d7ee">SHIPPED IMPACT</text>
     <rect x="24" y="118" width="146" height="26" rx="13" fill="url(#chip5)" stroke="#38bdf8" stroke-opacity="0.34"/>
       <text x="97" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">Refraction shaders</text>
       <rect x="178" y="118" width="146" height="26" rx="13" fill="url(#chip5)" stroke="#38bdf8" stroke-opacity="0.34"/>
       <text x="251" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">iOS 13-18 backport</text>
       <rect x="332" y="118" width="112" height="26" rx="13" fill="url(#chip5)" stroke="#38bdf8" stroke-opacity="0.34"/>
       <text x="388" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">Telegram fork</text>
-    <text x="24" y="200" font-family="ui-monospace,'SFMono-Regular',Consolas,monospace" font-size="11" fill="#7f93b0">wonghanz/Telegram-iOS-Contest-2025</text>
-    <text x="24" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Swift</text>
-    <text x="65" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="76" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Metal</text>
-    <text x="117" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="128" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Core Animation</text>
+    <text x="24" y="200" font-family="ui-monospace,'SFMono-Regular',Consolas,monospace" font-size="11" fill="#cfe0f5">wonghanz/Telegram-iOS-Contest-2025</text>
+    <text x="24" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">Swift</text>
+    <text x="65" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="76" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">Metal</text>
+    <text x="117" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="128" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">Core Animation</text>
     <g>
       <text x="506" y="205" text-anchor="end" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#38bdf8">OPEN SOURCE</text>
       <path d="M514 200 h20 m-6 -6 l6 6 l-6 6" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">

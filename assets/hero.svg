@@ -161,7 +161,7 @@
     <text x="88" y="186" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="60" font-weight="800" letter-spacing="3.5" fill="#7dd3fc" opacity="0.5" filter="url(#softGlow)">WONG HANZ</text>
     <text x="88" y="186" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="60" font-weight="800" letter-spacing="3.5" fill="url(#nameFill)">WONG HANZ</text>
     <text x="90" y="220" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="0.4" fill="url(#roleFill)">Systems &amp; AIoT Engineer</text>
-    <text x="90" y="247" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#8fa3c2">Universiti Malaya &#183; CS — Computer Systems &amp; Networks &#183; Penang, Malaysia</text>
+    <text x="90" y="247" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#d5e4f7">Universiti Malaya &#183; CS — Computer Systems &amp; Networks &#183; Penang, Malaysia</text>
 
     <!-- tech chips -->
     <g font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#d3e6f8">

@@ -47,20 +47,20 @@
     </g>
 
     <text x="62" y="44" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="21" font-weight="800" letter-spacing="0.2" fill="url(#title1)">NodiGuard</text>
-    <text x="62" y="66" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#9fb3cf">Zero-trust local AI proxy for coding agents</text>
+    <text x="62" y="66" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#e6f1fd">Zero-trust local AI proxy for coding agents</text>
     <line x1="24" y1="90" x2="536" y2="90" stroke="#ffffff" stroke-opacity="0.1"/>
-    <text x="24" y="108" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="2" fill="#8399b8">SHIPPED IMPACT</text>
+    <text x="24" y="108" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="2" fill="#c4d7ee">SHIPPED IMPACT</text>
     <rect x="24" y="118" width="119" height="26" rx="13" fill="url(#chip1)" stroke="#a3e635" stroke-opacity="0.34"/>
       <text x="83.5" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">Leaked-key DLP</text>
       <rect x="151" y="118" width="146" height="26" rx="13" fill="url(#chip1)" stroke="#a3e635" stroke-opacity="0.34"/>
       <text x="224" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">Local tokenisation</text>
       <rect x="305" y="118" width="132" height="26" rx="13" fill="url(#chip1)" stroke="#a3e635" stroke-opacity="0.34"/>
       <text x="371" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">16 GB VRAM purge</text>
-    <text x="24" y="200" font-family="ui-monospace,'SFMono-Regular',Consolas,monospace" font-size="11" fill="#7f93b0">wonghanz/NodiGuard</text>
-    <text x="24" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Python</text>
-    <text x="70" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="81" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">TLS</text>
-    <text x="110" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="121" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Ollama</text>
-    <text x="167" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="178" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Linux</text>
+    <text x="24" y="200" font-family="ui-monospace,'SFMono-Regular',Consolas,monospace" font-size="11" fill="#cfe0f5">wonghanz/NodiGuard</text>
+    <text x="24" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">Python</text>
+    <text x="70" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="81" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">TLS</text>
+    <text x="110" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="121" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">Ollama</text>
+    <text x="167" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="178" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">Linux</text>
     <g>
       <text x="506" y="205" text-anchor="end" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#a3e635">OPEN SOURCE</text>
       <path d="M514 200 h20 m-6 -6 l6 6 l-6 6" fill="none" stroke="#a3e635" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">

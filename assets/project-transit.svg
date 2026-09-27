@@ -47,22 +47,22 @@
     </g>
 
     <text x="62" y="44" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="21" font-weight="800" letter-spacing="0.2" fill="url(#title4)">Transit Booking</text>
-    <text x="62" y="66" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#9fb3cf">Seat selection + payment for a live intercity terminal</text>
+    <text x="62" y="66" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#e6f1fd">Seat selection + payment for a live intercity terminal</text>
     <line x1="24" y1="90" x2="536" y2="90" stroke="#ffffff" stroke-opacity="0.1"/>
-    <text x="24" y="108" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="2" fill="#8399b8">SHIPPED IMPACT</text>
+    <text x="24" y="108" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="2" fill="#c4d7ee">SHIPPED IMPACT</text>
     <rect x="24" y="118" width="77" height="26" rx="13" fill="url(#chip4)" stroke="#8b5cf6" stroke-opacity="0.34"/>
       <text x="62.5" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">300+ DAU</text>
       <rect x="109" y="118" width="91" height="26" rx="13" fill="url(#chip4)" stroke="#8b5cf6" stroke-opacity="0.34"/>
       <text x="154.5" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">Fiuu + FPX</text>
       <rect x="208" y="118" width="132" height="26" rx="13" fill="url(#chip4)" stroke="#8b5cf6" stroke-opacity="0.34"/>
       <text x="274" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">QR boarding pass</text>
-    <text x="24" y="200" font-family="ui-monospace,'SFMono-Regular',Consolas,monospace" font-size="11" fill="#7f93b0">Terminal Shahab Perdana</text>
-    <text x="24" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Kotlin</text>
-    <text x="70" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="81" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Swift</text>
-    <text x="122" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="133" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Offline-first</text>
-    <text x="221" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="232" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">On-site UX</text>
+    <text x="24" y="200" font-family="ui-monospace,'SFMono-Regular',Consolas,monospace" font-size="11" fill="#cfe0f5">Terminal Shahab Perdana</text>
+    <text x="24" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">Kotlin</text>
+    <text x="70" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="81" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">Swift</text>
+    <text x="122" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="133" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">Offline-first</text>
+    <text x="221" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#7f95b6">/</text><text x="232" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#cfe0f5">On-site UX</text>
     <g>
-      <text x="506" y="205" text-anchor="end" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5d7093">PROPRIETARY</text>
+      <text x="506" y="205" text-anchor="end" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#adbfda">PROPRIETARY</text>
 
     </g>
   </g>

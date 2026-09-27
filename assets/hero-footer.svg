@@ -52,7 +52,7 @@
     <rect x="120" y="20.8" width="960" height="1.2" fill="#ffffff" opacity="0.35"/>
 
     <text x="600" y="66" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="800" letter-spacing="0.8" fill="url(#ftitle)">Let’s build something that stays up.</text>
-    <text x="600" y="94" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#93a7c4">wonghanz2007@gmail.com &#183; Penang, Malaysia &#183; open to systems &amp; AIoT engineering roles and research collaborations</text>
+    <text x="600" y="94" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#d3e2f6">wonghanz2007@gmail.com &#183; Penang, Malaysia &#183; open to systems &amp; AIoT engineering roles and research collaborations</text>
 
     <!-- droplet landing in the footer, both sides -->
     <g fill="none" stroke="url(#fripple)" stroke-width="1.3">

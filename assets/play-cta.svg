@@ -72,7 +72,7 @@
     </g>
 
     <text x="164" y="72" font-family="'Segoe UI',Inter,Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="800" letter-spacing="-0.4" fill="url(#title)">Try the water pond — it is the real thing</text>
-    <text x="164" y="104" font-family="'Segoe UI',Inter,Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="15.5" fill="#a9c2dd">Live WebGL height-field refraction, spatial ocean audio, a day that sets while you play, and droplet.</text>
+    <text x="164" y="104" font-family="'Segoe UI',Inter,Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="15.5" fill="#e0ecfa">Live WebGL refraction, spatial ocean audio, a day that sets while you play, and a droplet catch game.</text>
     <text x="164" y="132" font-family="ui-monospace,'SFMono-Regular',Consolas,monospace" font-size="14" letter-spacing="0.6" fill="#7dd3fc">wonghanz.github.io/playground</text>
 
     <g transform="translate(1096,82)">
