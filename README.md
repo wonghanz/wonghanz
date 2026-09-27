@@ -188,7 +188,7 @@ Six systems I designed and shipped. Open-source cards are clickable; the three c
   <img alt="Contribution graph rendered as a snake swimming through the grid" src="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
 
-<sub>Runs daily via <a href="actions/workflows/snake.yml"><b>.github/workflows/snake.yml</b></a> — this tile is blank until the first Action run publishes the <code>output</code> branch.</sub>
+<sub>Runs nightly via <a href="actions/workflows/snake.yml"><b>.github/workflows/snake.yml</b></a>; light and dark variants are published to the <code>output</code> branch.</sub>
 
 </div>
 
