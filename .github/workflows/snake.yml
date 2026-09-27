@@ -18,6 +18,8 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - name: Render snake
         uses: Platane/snk@v3
         with:
@@ -25,7 +27,9 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/contribution-ocean.gif?color_snake=#22d3ee&color_dots=#0a1030,#123055,#1d5c8f,#2a8bc4,#7dd3fc
+
+      - name: Gild the snake
+        run: node tools/gild-snake.mjs dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg
 
       - name: Publish to output branch
         uses: peaceiris/actions-gh-pages@v3.9.3

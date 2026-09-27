@@ -59,20 +59,6 @@ Six systems I designed and shipped. Open-source cards are clickable; the three c
 </tr>
 </table>
 
-<details>
-<summary><b>Text version</b> (screen readers / search)</summary>
-
-| Project | What it is | Hard numbers | Stack |
-|---|---|---|---|
-| [Eloquent Lab](https://github.com/wonghanz/Eloquent-Lab) | Native iOS + Android exam-prep SaaS for KMKK | 100+ MAU · −90% grading latency · RM0 ad spend | SwiftUI, StoreKit 2, Jetpack Compose, Room/KSP, RevenueCat, AdMob, DeepSeek |
-| [NodiGuard](https://github.com/wonghanz/NodiGuard) | Zero-trust local AI proxy for Cursor / VS Code / Aider | Leaked-key DLP · local prompt tokenisation · 16 GB VRAM purge | Python, TLS interception, Ollama, Linux/Bash |
-| PlantX / RHISS | Smart-agriculture telemetry + redundant hybrid power control | −30% water · +50% crop growth · Petrosains collaboration | ESP32, MicroPython, sensor fusion, solar/wind dual-inverter |
-| CapriGuard | Livestock management pilot on a commercial farm | 300 goats · RFID ear-tag scans · automated health risk triage | PHP REST, ESP32 edge units, bidirectional auth, Gemini API |
-| Transit Booking | Terminal Shahab Perdana cross-platform booking | 300+ DAU · Fiuu + FPX checkout · encrypted QR boarding pass | Kotlin, Swift, client-side caching, on-site usability testing |
-| [Liquid Glass on iOS](https://github.com/wonghanz/Telegram-iOS-Contest-2025) | Liquid-glass rendering backported to iOS 13–18 in a Telegram fork | Refraction shaders · 6 OS generations · contest submission | Swift, Metal, Core Animation |
-
-</details>
-
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 <!-- ─────────────── STACK ─────────────── -->
@@ -123,12 +109,7 @@ Six systems I designed and shipped. Open-source cards are clickable; the three c
 
 <h2><img src="assets/drop.svg" width="30" height="30" align="left" alt=""/> Where I am</h2>
 
-- 🔭 **Now** — Lead Mobile SaaS & Growth Engineer at **Eloquent Lab** (remote), shipping native iOS + Android against real retention numbers.
-- 🧱 **Before that** — AI Engineer & Grant Research Lead at **IoT Services Sdn. Bhd.**: owned the technical roadmap behind a **RM 100,000 Cradle CIP Spark Grant**.
-- 🎓 **Studying** — B.Sc. Computer Science, *Computer Systems & Networks*, **Universiti Malaya** (expected 2030). Flat **4.00 CGPA** in engineering matriculation, 10A SPM.
-- 🌱 **Learning** — real-time DSP for speech scoring, and pushing local-first inference below the point where it feels like a network call.
-- 🏛️ **Community** — founded **STEMgineers Club** at KMKK; trained 100+ members, mentored 20 gold-medal teams at ILEIID 2025. Head PAL Supremo: led KMKK to **#1 of 18** national matriculation colleges.
-- ✉️ **Reach me** — [wonghanz2007@gmail.com](mailto:wonghanz2007@gmail.com) · open to systems/AIoT engineering roles and research collaborations.
+<img src="assets/whereami.svg" width="100%" alt="Where I am. Nested reach: Bayan Lepas Penang is the home base where field hardware is built and tested; Penang and Kedah carry live deployments across a transit terminal, a livestock farm and exam-prep classrooms; Malaysia covers the RM 100,000 Cradle CIP Spark grant architecture and placing first of 18 national matriculation colleges; Southeast Asia covers the EcoRise SEA Challenge 2026 championship and four gold medals abroad since 2023. Current position: Lead Mobile SaaS and Growth Engineer at Eloquent Lab, remote. Before that AI Engineer and Grant Research Lead at IoT Services Sdn. Bhd. Studying B.Sc. Computer Science, Computer Systems and Networks at Universiti Malaya, expected 2030. Community: founded STEMgineers Club at KMKK, trained 100+ members and mentored 20 gold-medal teams. Learning real-time DSP for speech scoring and local-first inference. Reach me at wonghanz2007@gmail.com, open to systems and AIoT roles and research work."/>
 
 <details>
 <summary><b>Credentials & selected recognition</b> — 39 awards, showing the ones that changed what I built next</summary>
@@ -175,8 +156,8 @@ Six systems I designed and shipped. Open-source cards are clickable; the three c
 
 <table align="center">
 <tr border="none">
-<td width="50%" align="center"><img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=wonghanz&bg_color=060a1a&border_color=1e2a4a&color=cbd5f5&icon_color=22d3ee&title_color=a5f3fc&hide=issues,contribs&hide_border=true&border_radius=22&show_icons=true&count_private=true&card_width=430" alt="GitHub stats"/></td>
-<td width="50%" align="center"><img src="https://streak-stats.demolab.com?user=wonghanz&background=060a1a&border=1e2a4a&colors=cbd5f5&sideNums=e6f2ff&fire=f472b6&ring=22d3ee&currStreakNum=a5f3fc&stroke=334155&hide_border=true&border_radius=22&card_width=430" alt="GitHub streak"/></td>
+<td width="50%" align="center"><img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=wonghanz&bg_color=060a1a&border_color=3a2e12&color=FDE68A&icon_color=F59E0B&title_color=FBBF24&hide=issues,contribs&hide_border=true&border_radius=22&show_icons=true&count_private=true&card_width=430" alt="GitHub stats"/></td>
+<td width="50%" align="center"><img src="https://streak-stats.demolab.com?user=wonghanz&background=060a1a&border=3a2e12&colors=FDE68A&sideNums=FEF9C3&fire=F59E0B&ring=FBBF24&currStreakNum=FDE047&stroke=78350f&hide_border=true&border_radius=22&card_width=430" alt="GitHub streak"/></td>
 </tr>
 </table>
 
@@ -191,17 +172,6 @@ Six systems I designed and shipped. Open-source cards are clickable; the three c
 <sub>Runs nightly via <a href="actions/workflows/snake.yml"><b>.github/workflows/snake.yml</b></a>; light and dark variants are published to the <code>output</code> branch.</sub>
 
 </div>
-
-<details>
-<summary><b>Interactive version</b> — the same glass, with real water</summary>
-
-A GitHub README cannot run JavaScript, so the ripple here is baked animation, not
-response. The playground is where you can actually touch it:
-
-**[wonghanz.github.io/playground](https://wonghanz.github.io/playground)** — cursor-driven
-water surface refracting the glass cards, plus a droplet-catching mini game.
-
-</details>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
