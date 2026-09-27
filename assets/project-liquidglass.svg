@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="232" viewBox="0 0 560 232" role="img" aria-label="Liquid Glass on iOS - Where this profile design came from">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070f"/><stop offset="0.5" stop-color="#0a1030"/><stop offset="1" stop-color="#05070f"/>
+    </linearGradient>
+    <radialGradient id="a5"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.5"/><stop offset="0.6" stop-color="#38bdf8" stop-opacity="0.09"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b5"><stop offset="0" stop-color="#f0abfc" stop-opacity="0.45"/><stop offset="0.6" stop-color="#f0abfc" stop-opacity="0.08"/><stop offset="1" stop-color="#f0abfc" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glass5" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.13"/><stop offset="0.55" stop-color="#ffffff" stop-opacity="0.04"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="chip5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.15"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="shine5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.14"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="title5" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#f6fbff"/><stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="blur5" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="22"/></filter>
+    <clipPath id="clip5"><rect x="1" y="1" width="558" height="230" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip5)">
+    <rect width="560" height="232" fill="url(#bg5)"/>
+    <circle cx="118" cy="34" r="150" fill="url(#a5)"><animate attributeName="cx" values="118;190;118" dur="26s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/></circle>
+    <circle cx="510" cy="252" r="140" fill="url(#b5)"><animate attributeName="cy" values="252;190;252" dur="29s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/></circle>
+    <g clip-path="url(#clip5)">
+      <g filter="url(#blur5)"><circle cx="118" cy="34" r="150" fill="url(#a5)"/><circle cx="510" cy="252" r="140" fill="url(#b5)"/><rect width="560" height="232" fill="#060a1a" opacity="0.66"/></g>
+      <rect width="560" height="232" fill="url(#glass5)"/>
+      <rect x="-220" y="0" width="150" height="232" fill="url(#shine5)" transform="skewX(-18)">
+        <animate attributeName="x" values="-240;620" dur="8s" begin="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.2 0 0.3 1" keyTimes="0;1"/>
+      </rect>
+    </g>
+    <rect x="1" y="1" width="558" height="230" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1.3"/>
+    <rect x="70" y="1.6" width="420" height="1.2" fill="#ffffff" opacity="0.4"/>
+
+    <!-- droplet mark -->
+    <g transform="translate(24,24)">
+      <circle cx="15" cy="15" r="14" fill="url(#a5)"/>
+      <circle cx="15" cy="15" r="11" fill="#ffffff" fill-opacity="0.14" stroke="#ffffff" stroke-opacity="0.55"/>
+      <ellipse cx="11" cy="10.5" rx="3.6" ry="2.3" fill="#ffffff" fill-opacity="0.85" transform="rotate(-28 11 10.5)"/>
+      <circle cx="15" cy="15" r="14" fill="none" stroke="#38bdf8" stroke-opacity="0.6">
+        <animate attributeName="r" values="14;24" dur="3s" begin="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0" dur="3s" begin="2.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <text x="62" y="44" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="21" font-weight="800" letter-spacing="0.2" fill="url(#title5)">Liquid Glass on iOS</text>
+    <text x="62" y="66" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#9fb3cf">Where this profile design came from</text>
+    <line x1="24" y1="90" x2="536" y2="90" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="24" y="108" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="2" fill="#8399b8">SHIPPED IMPACT</text>
+    <rect x="24" y="118" width="146" height="26" rx="13" fill="url(#chip5)" stroke="#38bdf8" stroke-opacity="0.34"/>
+      <text x="97" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">Refraction shaders</text>
+      <rect x="178" y="118" width="146" height="26" rx="13" fill="url(#chip5)" stroke="#38bdf8" stroke-opacity="0.34"/>
+      <text x="251" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">iOS 13-18 backport</text>
+      <rect x="332" y="118" width="112" height="26" rx="13" fill="url(#chip5)" stroke="#38bdf8" stroke-opacity="0.34"/>
+      <text x="388" y="135" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="700" fill="#e6f2ff">Telegram fork</text>
+    <text x="24" y="200" font-family="ui-monospace,'SFMono-Regular',Consolas,monospace" font-size="11" fill="#7f93b0">wonghanz/Telegram-iOS-Contest-2025</text>
+    <text x="24" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Swift</text>
+    <text x="65" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="76" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Metal</text>
+    <text x="117" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#3d4d66">/</text><text x="128" y="176" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="0.4" fill="#7f93b0">Core Animation</text>
+    <g>
+      <text x="506" y="205" text-anchor="end" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#38bdf8">OPEN SOURCE</text>
+      <path d="M514 200 h20 m-6 -6 l6 6 l-6 6" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+</svg>

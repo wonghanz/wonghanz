@@ -1,0 +1,35 @@
+name: Contribution grid snake
+
+# Renders the contribution graph as an animated SVG on the `output` branch.
+# The README reads it straight from raw.githubusercontent.com, so no image is
+# committed to the profile repo itself.
+
+on:
+  schedule:
+    - cron: "5 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Render snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: wonghanz
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/contribution-ocean.gif?color_snake=#22d3ee&color_dots=#0a1030,#123055,#1d5c8f,#2a8bc4,#7dd3fc
+
+      - name: Publish to output branch
+        uses: peaceiris/actions-gh-pages@v3.9.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist

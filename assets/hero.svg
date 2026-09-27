@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Wong Hanz - Systems and AIoT Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#03050d"/>
+      <stop offset="0.45" stop-color="#080d24"/>
+      <stop offset="1" stop-color="#03050d"/>
+    </linearGradient>
+
+    <radialGradient id="oCyan"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.72"/><stop offset="0.55" stop-color="#0891b2" stop-opacity="0.18"/><stop offset="1" stop-color="#0891b2" stop-opacity="0"/></radialGradient>
+    <radialGradient id="oViolet"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.62"/><stop offset="0.55" stop-color="#6d28d9" stop-opacity="0.14"/><stop offset="1" stop-color="#6d28d9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="oPink"><stop offset="0" stop-color="#f472b6" stop-opacity="0.55"/><stop offset="0.55" stop-color="#db2777" stop-opacity="0.12"/><stop offset="1" stop-color="#db2777" stop-opacity="0"/></radialGradient>
+    <radialGradient id="oLime"><stop offset="0" stop-color="#a3e635" stop-opacity="0.4"/><stop offset="0.6" stop-color="#65a30d" stop-opacity="0.08"/><stop offset="1" stop-color="#65a30d" stop-opacity="0"/></radialGradient>
+
+    <linearGradient id="glassFill" x1="0.1" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.015"/>
+    </linearGradient>
+    <linearGradient id="glassStroke" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.24"/>
+    </linearGradient>
+    <linearGradient id="topEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#bdf3ff"/>
+      <stop offset="1" stop-color="#e2d9ff"/>
+    </linearGradient>
+    <linearGradient id="roleFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34e0f0"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f776b8"/>
+    </linearGradient>
+    <linearGradient id="chipFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+
+    <radialGradient id="dropBody" cx="0.33" cy="0.25" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="0.16" stop-color="#dff5ff" stop-opacity="0.42"/>
+      <stop offset="0.46" stop-color="#2f7fd4" stop-opacity="0.2"/>
+      <stop offset="0.78" stop-color="#4c2f9b" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#050a1c" stop-opacity="0.72"/>
+    </radialGradient>
+    <radialGradient id="spec"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="caustic" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0.15"/>
+      <stop offset="0.55" stop-color="#e0f7ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="ripple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.05"/>
+      <stop offset="0.5" stop-color="#e0f7ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="blurL" x="-45%" y="-45%" width="190%" height="190%"><feGaussianBlur stdDeviation="34"/></filter>
+    <filter id="softGlow" x="-40%" y="-80%" width="180%" height="260%"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="pulse" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+    <clipPath id="panelClip"><rect x="56" y="72" width="700" height="244" rx="28"/></clipPath>
+    <clipPath id="frameClip"><rect x="0" y="0" width="1200" height="420" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+
+    <!-- drifting gradient orbs -->
+    <circle cx="210" cy="110" r="200" fill="url(#oCyan)">
+      <animate attributeName="cx" values="210;300;210" dur="17s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+      <animate attributeName="cy" values="110;170;110" dur="13s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </circle>
+    <circle cx="650" cy="330" r="235" fill="url(#oViolet)">
+      <animate attributeName="cx" values="650;560;650" dur="19s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+      <animate attributeName="cy" values="330;270;330" dur="15s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </circle>
+    <circle cx="1020" cy="80" r="215" fill="url(#oPink)">
+      <animate attributeName="cy" values="80;160;80" dur="21s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </circle>
+    <circle cx="440" cy="20" r="150" fill="url(#oLime)">
+      <animate attributeName="cx" values="440;520;440" dur="23s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </circle>
+
+    <!-- water plane, below the panel -->
+    <rect x="0" y="344" width="1200" height="76" fill="url(#water)"/>
+    <rect x="0" y="344" width="1200" height="1.4" fill="#a5f3fc" opacity="0.42"/>
+    <rect x="120" y="378" width="300" height="1" fill="#a5f3fc" opacity="0.16">
+      <animate attributeName="opacity" values="0.04;0.22;0.04" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="240;360;240" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="700" y="398" width="340" height="1" fill="#c4b5fd" opacity="0.14">
+      <animate attributeName="opacity" values="0.2;0.04;0.2" dur="8s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- smoked glass panel: dark scrim + faint colour bleed + crisp edges -->
+    <g clip-path="url(#panelClip)">
+      <rect x="56" y="72" width="700" height="244" fill="#060a1a" opacity="0.72"/>
+      <g filter="url(#blurL)" opacity="0.42">
+        <circle cx="210" cy="110" r="200" fill="url(#oCyan)"/>
+        <circle cx="650" cy="330" r="235" fill="url(#oViolet)"/>
+        <circle cx="1020" cy="80" r="215" fill="url(#oPink)"/>
+      </g>
+      <rect x="56" y="72" width="700" height="244" fill="url(#glassFill)"/>
+      <rect x="-260" y="72" width="170" height="244" fill="url(#shine)" transform="skewX(-16)">
+        <animate attributeName="x" values="-300;960" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.2 0 0.3 1" keyTimes="0;1"/>
+      </rect>
+    </g>
+    <rect x="56" y="72" width="700" height="244" rx="28" fill="none" stroke="url(#glassStroke)" stroke-width="1.4"/>
+    <rect x="130" y="72.8" width="550" height="1.3" fill="url(#topEdge)"/>
+
+    <!-- status pill -->
+    <rect x="88" y="94" width="242" height="28" rx="14" fill="url(#chipFill)" stroke="#ffffff" stroke-opacity="0.26"/>
+    <circle cx="106" cy="108" r="4" fill="#4ade80" filter="url(#pulse)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="120" y="113" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="1.5" fill="#dbe8f7">BUILDING SYSTEMS IN PRODUCTION</text>
+
+    <!-- name: crisp fill + separate soft glow layer -->
+    <text x="88" y="186" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="60" font-weight="800" letter-spacing="3.5" fill="#7dd3fc" opacity="0.5" filter="url(#softGlow)">WONG HANZ</text>
+    <text x="88" y="186" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="60" font-weight="800" letter-spacing="3.5" fill="url(#nameFill)">WONG HANZ</text>
+    <text x="90" y="220" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="0.4" fill="url(#roleFill)">Systems &amp; AIoT Engineer</text>
+    <text x="90" y="247" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#8fa3c2">Universiti Malaya &#183; CS — Computer Systems &amp; Networks &#183; Penang, Malaysia</text>
+
+    <!-- tech chips -->
+    <g font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#d3e6f8">
+      <rect x="90" y="266" width="62" height="25" rx="12.5" fill="url(#chipFill)" stroke="#ffffff" stroke-opacity="0.18"/><text x="121" y="282" text-anchor="middle">Swift</text>
+      <rect x="160" y="266" width="66" height="25" rx="12.5" fill="url(#chipFill)" stroke="#ffffff" stroke-opacity="0.18"/><text x="193" y="282" text-anchor="middle">Kotlin</text>
+      <rect x="234" y="266" width="74" height="25" rx="12.5" fill="url(#chipFill)" stroke="#ffffff" stroke-opacity="0.18"/><text x="271" y="282" text-anchor="middle">Python</text>
+      <rect x="316" y="266" width="76" height="25" rx="12.5" fill="url(#chipFill)" stroke="#ffffff" stroke-opacity="0.18"/><text x="354" y="282" text-anchor="middle">ESP32</text>
+      <rect x="400" y="266" width="106" height="25" rx="12.5" fill="url(#chipFill)" stroke="#ffffff" stroke-opacity="0.18"/><text x="453" y="282" text-anchor="middle">LLM pipelines</text>
+      <rect x="514" y="266" width="140" height="25" rx="12.5" fill="url(#chipFill)" stroke="#ffffff" stroke-opacity="0.18"/><text x="584" y="282" text-anchor="middle">Distributed systems</text>
+    </g>
+
+    <!-- 3D water bead on the surface, with expanding ripples -->
+    <ellipse cx="985" cy="344" rx="120" ry="14" fill="#22d3ee" opacity="0.07" filter="url(#blurL)"/>
+    <g fill="none" stroke="url(#ripple)" stroke-width="1.5">
+      <ellipse cx="985" cy="344" rx="10" ry="2" opacity="0">
+        <animate attributeName="rx" values="10;160" dur="4.2s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.1 0.6 0.3 1" keyTimes="0;1"/>
+        <animate attributeName="ry" values="2;26" dur="4.2s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.1 0.6 0.3 1" keyTimes="0;1"/>
+        <animate attributeName="opacity" values="0;0.85;0" dur="4.2s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="985" cy="344" rx="10" ry="2" opacity="0">
+        <animate attributeName="rx" values="10;160" dur="4.2s" begin="1.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.1 0.6 0.3 1" keyTimes="0;1"/>
+        <animate attributeName="ry" values="2;26" dur="4.2s" begin="1.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.1 0.6 0.3 1" keyTimes="0;1"/>
+        <animate attributeName="opacity" values="0;0.6;0" dur="4.2s" begin="1.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="985" cy="344" rx="10" ry="2" opacity="0">
+        <animate attributeName="rx" values="10;160" dur="4.2s" begin="2.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.1 0.6 0.3 1" keyTimes="0;1"/>
+        <animate attributeName="ry" values="2;26" dur="4.2s" begin="2.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.1 0.6 0.3 1" keyTimes="0;1"/>
+        <animate attributeName="opacity" values="0;0.45;0" dur="4.2s" begin="2.8s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="5.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+      <circle cx="985" cy="205" r="70" fill="url(#dropBody)"/>
+      <circle cx="985" cy="205" r="70" fill="none" stroke="#ffffff" stroke-opacity="0.42" stroke-width="1.2"/>
+      <!-- lower-left rim light, hugging the sphere edge -->
+      <circle cx="985" cy="205" r="63" fill="none" stroke="url(#caustic)" stroke-width="5" stroke-linecap="round" stroke-dasharray="86 309" transform="rotate(96 985 205)"/>
+      <!-- upper-right thin rim -->
+      <circle cx="985" cy="205" r="67" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="46 376" transform="rotate(-72 985 205)"/>
+      <ellipse cx="958" cy="176" rx="19" ry="12" fill="url(#spec)" transform="rotate(-30 958 176)"/>
+      <ellipse cx="1006" cy="238" rx="7" ry="4.5" fill="url(#spec)" opacity="0.35"/>
+      <circle cx="985" cy="205" r="86" fill="none" stroke="#a5f3fc" stroke-opacity="0.2" stroke-width="1">
+        <animate attributeName="r" values="78;98;78" dur="5.5s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.26;0.03;0.26" dur="5.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- satellite drops falling into the plane -->
+    <circle cx="878" cy="150" r="6.5" fill="url(#dropBody)" opacity="0.9">
+      <animate attributeName="cy" values="126;336" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.95;0" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1104" cy="130" r="4.5" fill="url(#dropBody)" opacity="0.8">
+      <animate attributeName="cy" values="112;336" dur="5s" begin="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="5s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1178" cy="24" r="80" fill="url(#oCyan)" opacity="0.3"/>
+    <rect x="0.7" y="0.7" width="1198.6" height="418.6" rx="28" fill="none" stroke="#ffffff" stroke-opacity="0.13"/>
+  </g>
+</svg>

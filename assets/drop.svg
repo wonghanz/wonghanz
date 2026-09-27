@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="section marker">
+  <defs>
+    <radialGradient id="d" cx="0.33" cy="0.28" r="0.85">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.22" stop-color="#a5f3fc" stop-opacity="0.55"/>
+      <stop offset="0.62" stop-color="#8b5cf6" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0b1030" stop-opacity="0.6"/>
+    </radialGradient>
+    <radialGradient id="s"><stop offset="0" stop-color="#fff" stop-opacity="0.95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <filter id="gg" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <circle cx="24" cy="21" r="14" fill="none" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="1">
+    <animate attributeName="r" values="14;22" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.5;0" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="24" cy="21" r="14" fill="url(#d)" filter="url(#gg)"/>
+  <circle cx="24" cy="21" r="14" fill="none" stroke="#ffffff" stroke-opacity="0.6" stroke-width="0.9"/>
+  <path d="M14.5 27 A14 14 0 0 0 33 15.5" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="1.6" stroke-linecap="round"/>
+  <ellipse cx="19" cy="15" rx="4.2" ry="2.8" fill="url(#s)" transform="rotate(-30 19 15)"/>
+  <ellipse cx="24" cy="41" rx="11" ry="2.2" fill="#22d3ee" opacity="0.28">
+    <animate attributeName="rx" values="11;6;11" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.28;0.1;0.28" dur="2.6s" repeatCount="indefinite"/>
+  </ellipse>
+</svg>
