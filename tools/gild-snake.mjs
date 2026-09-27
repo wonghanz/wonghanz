@@ -1,9 +1,20 @@
 // Post-processes Platane/snk output into a gold, glossy snake on a navy pond.
-// Usage: node tools/gild-snake.mjs dist/*.svg
+// Usage: node tools/gild-snake.mjs <srcDir> <outDir>
+//
+// Writes to a new directory rather than editing in place: Platane/snk runs in a
+// container and leaves dist/ owned by root, so the runner user cannot overwrite it.
+//
 // The generated SVG paints every cell from CSS custom properties and paints the
 // snake body through the `.s` class, so the restyle is injected as a trailing
 // <style> block (equal specificity, later wins) instead of rewriting markup.
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs';
+import { join, basename } from 'node:path';
+
+const [srcDir, outDir] = process.argv.slice(2);
+if (!srcDir || !outDir) {
+  console.error('usage: node tools/gild-snake.mjs <srcDir> <outDir>');
+  process.exit(1);
+}
 
 const PALETTE = `:root{--cb:#ffffff08;--cs:#fbbf24;--ce:#0a1024;--c0:#101a33;--c1:#4a3512;--c2:#8a5f14;--c3:#c9941f;--c4:#fcd34d}`;
 
@@ -29,16 +40,20 @@ const GILD = `
   svg{background:transparent}
 </style>`;
 
-let touched = 0;
-for (const file of process.argv.slice(2)) {
-  let svg = readFileSync(file, 'utf8');
-  if (!svg.includes('</svg>')) {
-    console.error(`gild-snake: ${file} has no closing </svg> — snk output changed?`);
+mkdirSync(outDir, { recursive: true });
+let gilded = 0;
+for (const entry of readdirSync(srcDir, { withFileTypes: true })) {
+  if (!entry.isFile()) continue;
+  const from = join(srcDir, entry.name);
+  const to = join(outDir, basename(entry.name));
+  let body = readFileSync(from, 'utf8');
+  if (entry.name.endsWith('.svg') && body.includes('</svg>')) {
+    body = body.replace(/:root\{[^}]*\}/, PALETTE).replace('</svg>', `${GILD}\n</svg>`);
+    gilded += 1;
+  } else if (entry.name.endsWith('.svg')) {
+    console.error(`gild-snake: ${entry.name} has no closing </svg> — snk output changed?`);
     process.exit(1);
   }
-  svg = svg.replace(/:root\{[^}]*\}/, PALETTE);
-  svg = svg.replace('</svg>', `${GILD}\n</svg>`);
-  writeFileSync(file, svg);
-  touched += 1;
+  writeFileSync(to, body);
 }
-console.log(`gild-snake: gilded ${touched} file(s)`);
+console.log(`gild-snake: wrote ${outDir} with ${gilded} gilded svg(s)`);

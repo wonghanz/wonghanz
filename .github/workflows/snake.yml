@@ -29,11 +29,11 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Gild the snake
-        run: node tools/gild-snake.mjs dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg
+        run: node tools/gild-snake.mjs dist gilded
 
       - name: Publish to output branch
         uses: peaceiris/actions-gh-pages@v3.9.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
-          publish_dir: ./dist
+          publish_dir: ./gilded
