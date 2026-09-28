@@ -1,12 +1,16 @@
 name: Profile refresh
 
-# Nightly: renders the contribution graph as an animated snake onto the `output`
+# Renders the contribution graph as an animated snake onto the `output`
 # branch (the README reads it straight from raw.githubusercontent.com, so no
 # image is committed here), and re-bakes the two stat cards onto `main`.
 
 on:
   schedule:
-    - cron: "5 0 * * *"
+    # Four passes a day, not one nightly. A single run meant the graph showed
+    # yesterday's data until it fired — and GitHub routinely delivers scheduled
+    # runs hours late (today's 00:05 cron landed at 05:14 UTC), which left the
+    # profile trailing by most of a day.
+    - cron: "23 */6 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -38,6 +42,16 @@ jobs:
           publish_branch: output
           publish_dir: ./gilded
 
+      # raw.githubusercontent.com serves stale copies of a path it has already
+      # cached, so a fixed URL can keep a fresh render invisible behind the old
+      # one. Keying the query string to the bytes actually published moves the URL
+      # exactly when the art moves, and leaves it alone when nothing changed.
+      - name: Stamp the snake URLs with the published bytes
+        run: |
+          h=$(cat gilded/github-contribution-grid-snake.svg gilded/github-contribution-grid-snake-dark.svg | sha256sum | cut -c1-10)
+          sed -i -E "s#(github-contribution-grid-snake(-dark)?\.svg)(\?v=[0-9a-f]+)?#\1?v=$h#g" README.md
+          echo "Snake revision now advertised: \`$h\`" >> "$GITHUB_STEP_SUMMARY"
+
       # Committed back to main so the README never depends on a third-party
       # renderer being up, or on it honouring CSS animations inside an <img>.
       # Pushes made with GITHUB_TOKEN do not re-trigger this workflow.
@@ -51,5 +65,15 @@ jobs:
           git add assets/stats.svg assets/streak.svg
           git diff --cached --quiet && echo "no change" || {
             git commit -m "Stats: refresh baked cards"
+            git push
+          }
+
+      - name: Commit the stamped README
+        run: |
+          git config user.name "Hanz"
+          git config user.email "115807670+wonghanz@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && echo "no change" || {
+            git commit -m "Snake: advertise the fresh render"
             git push
           }
