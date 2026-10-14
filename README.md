@@ -166,9 +166,9 @@ Six systems I designed and shipped. Open-source cards are clickable; the three c
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake-dark.svg?v=c07ce0dcdf" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake.svg?v=c07ce0dcdf" />
-  <img alt="Contribution graph rendered as a snake swimming through the grid" src="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake.svg?v=c07ce0dcdf" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake-dark.svg?v=00fc11ba99" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake.svg?v=00fc11ba99" />
+  <img alt="Contribution graph rendered as a snake swimming through the grid" src="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake.svg?v=00fc11ba99" width="100%"/>
 </picture>
 
 <sub>Refreshes every six hours via <a href="actions/workflows/snake.yml"><b>.github/workflows/snake.yml</b></a>; light and dark variants are published to the <code>output</code> branch, and the URL is stamped with the published bytes so a new render is never hidden behind a cache.</sub>
