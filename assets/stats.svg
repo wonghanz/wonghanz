@@ -43,7 +43,7 @@
  opacity: 0.8;
  transform-origin: -10px 8px;
  transform: rotate(-90deg);
- stroke-dashoffset: 125.62963512673608;}
+ stroke-dashoffset: 125.61357313689128;}
  
  
  
@@ -138,7 +138,7 @@
         x="190" 
         y="12.5" 
         data-testid="commits"
-      >280</text>
+      >282</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="" transform="translate(25, 0)">
