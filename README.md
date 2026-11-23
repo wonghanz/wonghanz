@@ -165,6 +165,10 @@ Six systems I designed and shipped. Open-source cards are clickable; the three c
 
 <div align="center">
 
+<img src="koi/koi.gif" width="100%" alt="Pixel-art koi redrawn nightly from public GitHub activity"/>
+
+<sub>Redrawn nightly via <a href="actions/workflows/koi.yml"><b>.github/workflows/koi.yml</b></a> using <a href="https://github.com/yalongwastaken/git-koi">git-koi</a> — languages color it, contributions grow it, streaks mark it, and each day decides how it swims.</sub>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake-dark.svg?v=dee8faa737" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake.svg?v=dee8faa737" />
