@@ -3,8 +3,8 @@ name: Koi
 
 on:
   schedule:
-    # Just after midnight UTC, so the koi shows the day that just ended.
-    - cron: "20 0 * * *"
+    # After midnight UTC (offset from snake.yml's 23 */6 schedule).
+    - cron: "45 0 * * *"
   workflow_dispatch:
   push:
     paths: [.github/workflows/koi.yml]
@@ -22,8 +22,6 @@ jobs:
       - uses: yalongwastaken/git-koi@v1
         with:
           body: gold
-          size: 768x256
-          scale: 1
           output-dir: koi
       - name: Commit the koi if it changed
         shell: bash
