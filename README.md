@@ -170,9 +170,9 @@ Six systems I designed and shipped. Open-source cards are clickable; the three c
 <sub>Redrawn nightly via <a href="actions/workflows/koi.yml"><b>.github/workflows/koi.yml</b></a> using <a href="https://github.com/yalongwastaken/git-koi">git-koi</a> — languages color it, contributions grow it, streaks mark it, and each day decides how it swims.</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake-dark.svg?v=8d2396b5b2" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake.svg?v=8d2396b5b2" />
-  <img alt="Contribution graph rendered as a snake swimming through the grid" src="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake.svg?v=8d2396b5b2" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake-dark.svg?v=68cdf73674" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake.svg?v=68cdf73674" />
+  <img alt="Contribution graph rendered as a snake swimming through the grid" src="https://raw.githubusercontent.com/wonghanz/wonghanz/output/github-contribution-grid-snake.svg?v=68cdf73674" width="100%"/>
 </picture>
 
 <sub>Refreshes every six hours via <a href="actions/workflows/snake.yml"><b>.github/workflows/snake.yml</b></a>; light and dark variants are published to the <code>output</code> branch, and the URL is stamped with the published bytes so a new render is never hidden behind a cache.</sub>
